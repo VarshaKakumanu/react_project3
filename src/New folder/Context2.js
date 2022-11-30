@@ -1,13 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const Context2 = () => {
   return (
     <div>
-      welcome HOME
-
-
+      Context2
     </div>
   )
 }
 
-export default Home
+export default Context2
