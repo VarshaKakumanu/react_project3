@@ -9,6 +9,7 @@ import Contact from "./New folder/Contact";
 import Context from "./New folder/Context";
 import Context2 from "./New folder/Context2";
 import Memo from "./New folder/Memo";
+import Autofocus from "./New folder/Autofocus";
 
 export const UserContext = React.createContext();
 
@@ -46,6 +47,10 @@ const App = () => {
             element={<Context2 />}
           />
           </UserContext.Provider> */}
+          <Route
+            path="/autofocus"
+            element={<Autofocus />}
+          />
         </Routes>
       </BrowserRouter>
       

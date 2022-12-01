@@ -12,7 +12,8 @@ const Navbar = () => {
             <Link to="/contact"> CONTACT</Link><br />
             <Link to="/memo">Memo</Link><br />
             <Link to="/context"> context</Link><br />
-            <Link to="/context2"> Context2</Link>
+            <Link to="/context2"> Context2</Link><br />
+            <Link to="/autofocus"> Autofocus</Link>
         </ul>
       
     </div>
